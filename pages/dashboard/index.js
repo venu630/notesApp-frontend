@@ -2,7 +2,7 @@ const cardContainer = document.querySelector(".card-container");
 const logout = document.querySelector(".logout");
 const createNoteButton = document.querySelector(".new-note")
 
-const apiUrl = "http://localhost:8000";
+const apiUrl = "https://peaceful-oasis-28734.herokuapp.com";
 
 const token = localStorage.getItem("jwt");
 
@@ -43,7 +43,7 @@ const createNotes = (array) => {
 createNotes(cardData);
 
 
-const body = document.querySelector(".body");
+const body = document.querySelector("body");
 
 window.addEventListener("load", () => {
     body.classList.add("visible");

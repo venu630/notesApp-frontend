@@ -1,7 +1,7 @@
 const signUpButton = document.querySelector(".signUp-button");
 const signInButton = document.querySelector(".signIn-button");
 
-const apiUrl = "http://localhost:8000";
+const apiUrl = "https://peaceful-oasis-28734.herokuapp.com";
 
 
 signInButton.addEventListener("click", (event) => {
