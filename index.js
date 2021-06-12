@@ -1,5 +1,14 @@
 const signInSignUpButton = document.querySelector(".sign-in-sign-up");
 
-signInSignUpButton.addEventListener("click", () =>{
+window.addEventListener("load", () => {
+    const token = localStorage.getItem("jwt-token");
+
+    if (token) {
+        location.href = "/pages/dashboard/index.html";
+    }
+
+});
+
+signInSignUpButton.addEventListener("click", () => {
     location.href = "/pages/authPage/index.html"
 });
