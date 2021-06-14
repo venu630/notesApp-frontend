@@ -1,7 +1,8 @@
 const createNoteButton = document.querySelector(".create-note-button");
 
 
-const apiUrl = "https://peaceful-oasis-28734.herokuapp.com";
+// const apiUrl = "https://safe-brook-59742.herokuapp.com";
+const apiUrl = "http://localhost:8000";
 
 const token = localStorage.getItem("jwt");
 

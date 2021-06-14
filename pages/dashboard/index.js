@@ -2,7 +2,8 @@ const cardContainer = document.querySelector(".card-container");
 const logout = document.querySelector(".logout");
 const createNoteButton = document.querySelector(".new-note")
 
-const apiUrl = "https://peaceful-oasis-28734.herokuapp.com";
+// const apiUrl = "https://safe-brook-59742.herokuapp.com";
+const apiUrl = "http://localhost:8000";
 
 const token = localStorage.getItem("jwt");
 
